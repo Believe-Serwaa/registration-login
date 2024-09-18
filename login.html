@@ -4,9 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <script src="./scripts/login.js" defer></script>
 </head>
 <body>
    <h1>Login as Existing User</h1> 
+
+   <form id="login">
+    <input type="email" placeholder="Enter your email" required name = "email">
+    <input type="password" placeholder="Enter your password" required name="password">
+    <button type="login">Login</button>
+</form>
+<h1 id="message"></h1>
    <div>
     <a href="./index.html">Home</a>
     <a href="./register.html">Register</a>
